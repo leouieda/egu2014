@@ -5,7 +5,7 @@ Talk proposal submitted to the European Geosciences Union General Assembly 2014
 **Leonardo Uieda and Valéria C. F. Barbosa**
 
 
-Satellite observations of gravitational fields have provided geophysicists
+Satellite observations of the gravity field have provided geophysicists
 with exceptionally dense and uniform coverage of data over vast areas.
 This enables regional or global scale
 high resolution geophysical investigations.
