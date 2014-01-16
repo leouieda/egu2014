@@ -17,6 +17,7 @@ Accurately modeling such large structures
 requires taking the sphericity of the Earth into account.
 A reasonable approximation is to assume a spherical Earth and
 use spherical coordinates.
+
 In recent years, efforts have been made
 to advance forward modeling in spherical coordinates using tesseroids,
 particularly to make modeling fast and accurate.
@@ -31,9 +32,7 @@ to estimate the density distribution in a medium.
 The latter apply many algorithms to solve the inverse problem,
 ranging from analytic solutions to random search methods
 as well as systematic search.
-However, geophysical inverse problems are almost always ill-posed
-and thus require regularization.
-A range of regularizations: smooth, total variation, compactness
+
 We present an adaptation for tesseroids of the systematic search method
 of "planting anomalous densities".
 This method can be used to recover the geometry of geologic structures.
@@ -43,10 +42,12 @@ The main advantage of this method is its computational efficiency,
 requiring little computer memory and processing time.
 We demonstrate the shortcomings and capabilities of this approach using
 applications to synthetic and field data.
-Furthermore, performing the inversion gravity and gravity gradient data,
+Performing the inversion of gravity and gravity gradient data,
 simultaneously or separately,
 is straight forward and requires no changes to the existing algorithm.
 Such advantage makes it ideal to use
 with the multicomponent gravity gradient data from the GOCE satellite.
 
-
+An implementation of our adaptation is freely available
+in the open-source modeling and inversion package Fatiando a Terra
+(http://www.fatiando.org).
