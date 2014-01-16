@@ -23,8 +23,8 @@ to advance forward modeling in spherical coordinates using tesseroids,
 particularly with respect to speed and accuracy.
 Conversely, traditional space domain inverse modeling methods
 have not yet been adapted to use spherical coordinates and tesseroids.
-In the literature exist a range of inversion methods
-developed for Cartesian coordinates and right rectangular prisms.
+In the literature there are a range of inversion methods
+that have been developed for Cartesian coordinates and right rectangular prisms.
 These include methods for estimating the relief of an interface,
 like the Moho or the basement of a sedimentary basin.
 Another category includes methods
