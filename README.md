@@ -20,22 +20,22 @@ use spherical coordinates.
 
 In recent years, efforts have been made
 to advance forward modeling in spherical coordinates using tesseroids,
-particularly to make modeling fast and accurate.
-Conversely, space domain inverse modeling techniques
+particularly with respect to speed and accuracy.
+Conversely, traditional space domain inverse modeling methods
 have not yet been adapted to use spherical coordinates and tesseroids.
-In the literature exists a vast range of inversion methods
-developed for right rectangular prisms.
+In the literature exist a range of inversion methods
+developed for Cartesian coordinates and right rectangular prisms.
 These include methods for estimating the relief of an interface,
 like the Moho or the basement of a sedimentary basin.
 Another category includes methods
 to estimate the density distribution in a medium.
 The latter apply many algorithms to solve the inverse problem,
 ranging from analytic solutions to random search methods
-as well as systematic search.
+as well as systematic search methods.
 
 We present an adaptation for tesseroids of the systematic search method
 of "planting anomalous densities".
-This method can be used to recover the geometry of geologic structures.
+This method can be used to estimate the geometry of geologic structures.
 As prior information, it requires knowledge of the approximate densities and
 positions of the structures.
 The main advantage of this method is its computational efficiency,
@@ -45,8 +45,8 @@ applications to synthetic and field data.
 Performing the inversion of gravity and gravity gradient data,
 simultaneously or separately,
 is straight forward and requires no changes to the existing algorithm.
-Such advantage makes it ideal to use
-with the multicomponent gravity gradient data from the GOCE satellite.
+Such feature makes it ideal for inverting
+the multicomponent gravity gradient data from the GOCE satellite.
 
 An implementation of our adaptation is freely available
 in the open-source modeling and inversion package Fatiando a Terra
