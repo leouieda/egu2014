@@ -1,4 +1,26 @@
-Talk proposal submitted to the European Geosciences Union General Assembly 2014
+Talk given at the European Geosciences Union General Assembly 2014
+
+Slides are in the `presentation` folder.
+There is a LibreOffice `.odt` file as well as a PDF version.
+
+Results were generated using open-source software [Fatiando a
+Terra](http://www.fatiando.org).
+
+The `notebooks` folder contains
+the [IPython notebooks](http://ipython.org/notebook.html)
+used to run the inversions and generate the figures:
+
+* [plume.ipynb](http://nbviewer.ipython.org/github/leouieda/egu2014/blob/master/notebooks/plume.ipynb):
+  mantle plume model.
+* [lineament-curved.ipynb](http://nbviewer.ipython.org/github/leouieda/egu2014/blob/master/notebooks/lineament-curved.ipynb):
+  dense lineament model.
+* [underplate.ipynb](http://nbviewer.ipython.org/github/leouieda/egu2014/blob/master/notebooks/underplate.ipynb):
+  magmatic underplating model.
+* [example-images.ipynb](http://nbviewer.ipython.org/github/leouieda/egu2014/blob/master/notebooks/example-images.ipynb):
+  generates the images in the second slide.
+
+You can download and run them to reproduce all figures in the presentation!
+
 
 # Gravity inversion in spherical coordinates using tesseroids
 
