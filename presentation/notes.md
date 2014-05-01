@@ -62,6 +62,50 @@
 
 # 18
 
+* The best way to test a new method is to run it on synthetic data
+* This way we can analyse possible applications, advantages and shortcomings
+* For this, I looked at some results from the literature and made some very
+  simple models based on them to see if what kinds of sources I could recover
+  and how well
 
+# 19
+
+* The first model I used is of a hypothetical mantle plume
+* I say hypothetical because I don't want to get into the mantle plume debate
+* It is based on the one used for the synthetic data test in Chaves
+  and Ussami (2013)
+
+# 20
+
+* They used this simple tesseroid model to  calculate a synthetic geoid height
+  anomaly
+
+# 21
+
+* This is the model I'll use
+* It is a bit different from the Chaves and Ussami one
+* I created a sort of "plume head" that is 200km thick and 2x2 degrees wide
+* Bellow it there is a 700km tail
+* The top is at 100km depth and the density contrast is -50 kg.cm-3, which is
+  the same used by Chaves and Ussami
+
+# 22
+
+* I used my plume model to produce synthetic noisy gzz data at 250km altitude
+* I placed this model under Hawaii just for fun
+
+# 23
+
+* As you'll recall, I need to provide a seed to start my inversion
+* For this case, I used a single seed placed at the top with the correct
+  density contrast of -50
+
+# 24
+
+* Running the inversion I get the result in blue on the right
+* As you can see, the inversion recovers the major characteristics of the model
+* It underestimates the bottom depth a bit but getting the bottom right in
+  gravity inversion is always difficult
+* On the left, you can see that the estimate fits the data perfectly
 
 
