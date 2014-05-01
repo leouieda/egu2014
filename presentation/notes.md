@@ -70,6 +70,59 @@
 
 # 19
 
+* The first model I'll use is of a lineament in the crust composed of dense
+  rocks
+* This is inspired by the model of the Chad lineament, in Africa, by
+  Braitenberg et al (2011)
+
+# 20
+
+* This is the Bouguer anomaly map, highlighted by the black arrows is the Chad
+  lineament anomaly that is composed of two "threads"
+
+# 21
+
+* And this is a model proposed by the authors for a possible cause of the Chad
+  anomaly as a dense and elongated tesseroid at 1km depth
+
+# 22
+
+* Here is the model I made inspired by the Braitenberg et al model
+* It is composed of two elongated bodies
+* Both are 10 degrees long, 0.5 degrees wide, and 8 km thick
+* The density contrast is 300 kg.m-3 and the top is at 1km depth
+
+# 23
+
+* I used that model to generate noisy gzz data at 20km height
+
+# 24
+
+* As you'll recall, I need to provide seeds to start my inversion
+* In this case, I used one seed per body, located at the top and with the
+  correct density contrast
+* This choice of seeds symbolises that I know the top of the source
+
+# 25
+
+* I ran the inversion using those seeds
+* As you can see, the inversion is able to perfectly fit the noisy data
+
+# 26
+
+* And this is the solution I obtained shown in blue
+* The red lines are the contours of the true model
+* The inversion is able to correctly estimate the geometry of the source
+* The top of the body is estimated correctly in most places
+* It is also able to separate between the two where they become close
+
+
+-------------------------------------------------------------------------------
+
+# Extra
+
+# 19
+
 * The first model I used is of a hypothetical mantle plume
 * I say hypothetical because I don't want to get into the mantle plume debate
 * It is based on the one used for the synthetic data test in Chaves
