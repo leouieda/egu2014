@@ -116,6 +116,134 @@
 * The top of the body is estimated correctly in most places
 * It is also able to separate between the two where they become close
 
+# 27
+
+* What happens if I increase the height to 120 km?
+
+# 28
+
+* This is the gzz field at 120km
+* Notice from that the data it is not possible to distinguish between the two
+  lineaments
+
+# 29
+
+* Once again the inversion fits the data within the error limits
+
+# 30
+
+* This is the results we get, compared to the one obtained for 20km height
+* The inversion underestimates the depth of the sources
+* It is no longer able to distinguish between the two lineaments
+* However, it resembles the general shape of the true sources
+
+# 31
+
+* What if we increase the height even further to 270km?
+
+# 32
+
+* This is the gzz observed at 270 km
+
+# 33
+
+* You can see that the result is even worse than at 270km
+* The inversion completely misses the bend in the southern part of the source
+  to the right and underestimates the top
+
+# 34
+
+* Now lets consider another model, this time of a magmatic underplating
+  (or a somehow denser lower crust)
+* This is based on the model proposed by Mariani et al for the Parana Basin in
+  Southern Brazil
+
+# 35
+
+* This is the Bouguer anomaly for the Parana basin region, corrected for the
+  Moho and sediments
+* You can see a positive residual anomaly over the basin
+* This is explained by the authors as a magmatic underplating resulting from
+  the flood basalts of the Serra Geral formation
+* Taking a look at their inversion result for the a-a' profile
+
+# 36
+
+* They tested three different reference levels and obtained the thickness of
+  the underplating
+
+# 37
+
+* So I made a simple model based on this solution
+* The model is 10 x 5 degrees and 15 km thick
+* The top is at 30km and the density contrast is 200 kg.m-3
+
+# 38
+
+* This is the gzz field calculated at 250km altitude and noise corrupted
+
+# 39
+
+* Again, the seed used to start the inversion was located at the top and has
+  the correct density contrast
+
+# 40
+
+* This is the result I get after running the inversion
+* Notice that it fits the data and recovers a slightly smoothed version of the
+  true model
+
+# 41
+
+* But what happens if I use the wrong the density?
+* In reality there would be no way to know the exact value of the density
+* So what I want to test here is how sensitive is the result to the given
+  density
+
+# 42
+
+* On the top, is the result I get if I assign a higher density to the initial
+  seed
+* And on the bottom, if I assign a lower density
+* As you can see, the effect is merely a thickening or thinning of the estimate
+* The overall relief is maintained
+* This is something that is know to happen in traditional non-linear inversions
+  and this is just to show that the same thing happens here
+
+# 43-44-45
+
+* In conclusion, I have adapted the inversion method of planting anomalous
+  densities for tesseroids
+
+# 46
+
+* The tests on synthetic data show for what types of geometries this inversion
+  works well
+* Lineaments, flat slabs, and plumes work well
+* What still doesn't work well are dipping models, for example a subducting
+  slab
+* I'm still trying to come up with a clever trick to make those work
+
+# 47
+
+* Height matters, specially for crustal structure
+* So calculate your data as close as possible
+* But not too close because the tesseroid forward modeling becomes slow
+
+# 48
+
+* Missing the density contrast doesn't affect the general geometry of the
+  solution
+* One way to overcome the restraint of having to know the density is to test
+  different values and see which solution agrees more with other data
+
+# 49
+
+* What I'm working on for the future is testing different combinations of
+  tensor components to see if/how they impact the inversion
+* Find a way to make dipping models work
+* Apply to this to real data
+
 
 -------------------------------------------------------------------------------
 
